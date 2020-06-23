@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 import java.util.*;
 
 public class OpenCSVReader {
-    private static final String SAMPLE_CSV_FILE_PATH = "./Annotation_and_Csv_Json/records.csv";
+    private static final String SAMPLE_CSV_FILE_PATH = "./records.csv";
 
     public static void main(String[] args) throws IOException {
         try (
@@ -23,7 +23,6 @@ public class OpenCSVReader {
                 System.out.println("Phone : " + record[2]);
                 System.out.println("Country : " + record[3]);
                 System.out.println("---------------------------");
-            }
             }
         }
     }
