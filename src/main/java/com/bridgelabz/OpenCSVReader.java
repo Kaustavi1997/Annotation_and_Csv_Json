@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.Reader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.*;
+import java.util.List;
 
 public class OpenCSVReader {
     private static final String SAMPLE_CSV_FILE_PATH = "./records.csv";
